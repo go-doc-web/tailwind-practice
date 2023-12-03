@@ -13,7 +13,7 @@
       <a href="./index.html" class="uppercase font-bold text-purple-800"
         >godoc</a
       >
-      <nuv>
+      <nav>
         <ul class="text-gray-800 font-semibold m-0 p-0 flex">
           <li>
             <a
@@ -36,19 +36,98 @@
             >
           </li>
         </ul>
-      </nuv>
+        <ul>
+          <li>
+            <button
+              class="py-1 px-3 border-2 rounded-full border-indigo-600 text-indigo-600 hover:text-white hover:bg-indigo-800 focus:outline-none focus:ring focus:ring-violet-300"
+              type="button"
+            >
+              Login
+            </button>
+          </li>
+          <li>
+            <button
+              class="py-1 px-3 border-2 rounded-full border-indigo-600 text-indigo-600 hover:text-white hover:bg-indigo-800 focus:outline-none focus:ring focus:ring-violet-300"
+              type="button"
+              type="button"
+            >
+              Register
+            </button>
+          </li>
+        </ul>
+      </nav>
     </header>
     <!-- Main -->
     <main>
       <!-- Breadcrumbs -->
       <div>
         <div class="py-4 overflow-y-auto whitespace-nowrap">
-          <a class="text-gray-600 hover:text-gray-900" href="#">Home</a>
+          <a
+            class="text-gray-600 hover:text-gray-900 focus:outline-none focus:ring focus:ring-violet-300"
+            type="button"
+            href="#"
+            >Home</a
+          >
           <span class="mx-2 text-gray-500">&gt;</span>
           <a class="text-gray-600 hover:text-gray-900" href="#">News</a>
           <span class="mx-2 text-gray-500">&gt;</span>
           <a class="text-gray-600 hover:text-gray-900" href="#">Tech</a>
         </div>
+      </div>
+
+      <!-- Pagination -->
+      <div class="mt-20 mb-10">
+        <ul class="flex justify-center">
+          <li>
+            <a
+              class="inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 rounded-l-lg"
+              href="#"
+              >Prev</a
+            >
+          </li>
+          <li>
+            <a
+              class="inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+              href="#"
+              >1</a
+            >
+          </li>
+          <li>
+            <a
+              class="inline-block py-1 px-3 border border-gray-300 text-blue-600 hover:bg-blue-100 font-semibold"
+              href="#"
+              >2</a
+            >
+          </li>
+          <li>
+            <a
+              class="inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+              href="#"
+              >3</a
+            >
+          </li>
+          <li>
+            <a
+              class="inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+              href="#"
+              >4</a
+            >
+          </li>
+          <li>
+            <a
+              class="inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+              href="#"
+              >5</a
+            >
+          </li>
+          <li>
+            <a
+              class="inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 rounded-r-lg"
+              href="#"
+              >Next</a
+            >
+          </li>
+        </ul>
       </div>
       <!-- Divider -->
       <div class="border border-dashed"></div>
@@ -64,6 +143,12 @@
           type="email"
           placeholder="your email address"
         />
+        <button
+          class="px-4 py-2 bg-indigo-600 text-white rounded-b w-full hover:bg-indigo-800"
+          type="button"
+        >
+          Subscribe
+        </button>
       </div>
       <!-- Divider -->
       <div class="border border-dashed"></div>
